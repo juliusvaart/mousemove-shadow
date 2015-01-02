@@ -1,6 +1,11 @@
 mousemove-shadow (jQuery plugin)
 ================================
 
+The plugin adds a shadow to objects while moving the mouse cursor. The "light source" is your cursor.
+You may set from one to several shadows on objects.
+
+![test](https://github.com/Seg-mel/mousemove-shadow/blob/master/images/test.png)
+
 ### Installing
 
 1. Download shadow.js file
@@ -29,4 +34,6 @@ $('.text-selector').shadow('text-shadow', [
 
 - First argument is shadow type (string): `text-shadow` or `box-shadow`
 - Second argument is shadow settings (object): `{"width": <decimal>, "color": <css color as string>}`
-  For example: `{'width': 15, 'color': 'rgb(0, 93, 154)'}`
+  For example: `{'width': 15, 'color': 'rgb(0, 93, 154)'}`<br>
+  **width** - max width of shadow in your browser window<br>
+  **color** - css color
