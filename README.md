@@ -33,7 +33,7 @@ $('.text-selector').shadow('text-shadow', [
 ### API Reference
 
 - First argument is shadow type (string): `text-shadow` or `box-shadow`
-- Second argument is shadow settings (object): `{"width": <decimal>, "color": <css color as string>}`
-  For example: `{'width': 15, 'color': 'rgb(0, 93, 154)'}`<br>
+- Second argument is shadow settings (array of objects): `[{"width": <decimal>, "color": <css color as string>}]`
+  For example: `[{'width': 15, 'color': 'rgb(0, 93, 154)'}]`<br>
   **width** - max width of shadow in your browser window<br>
   **color** - css color
