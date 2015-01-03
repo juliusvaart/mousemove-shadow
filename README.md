@@ -10,7 +10,9 @@ You may set from one to several shadows on objects.
 
 1. Download shadow.js file
 2. Move this file to your static directory
-3. Add the following line to html `<script type="text/javascript" src="static/js/shadow.js"></script>` after jQuery library
+3. Add the following line to html <br>
+`<script type="text/javascript" src="static/js/shadow.js"></script>` <br>
+after jQuery library
 
 ### Using
 
