@@ -19,7 +19,7 @@
           if (($window.scrollTop() + window_height > (_ref = $object.offset().top + $object.height() / 2) && _ref > $window.scrollTop())) {
             obj_centerX = $object.offset().left + $object.width() / 2;
             obj_centerY = $object.offset().top + $object.height() / 2;
-            text_shadow_x = (window_width - obj_centerX - event.pageX) / obj_centerX;
+            text_shadow_x = (obj_centerX - event.pageX) * obj_centerX / window_width / obj_centerX;
             text_shadow_y = (obj_centerY - event.pageY) * obj_centerY / window_height / obj_centerY;
             css_data_string = "";
             for (index = _i = 0, _len = data_array.length; _i < _len; index = ++_i) {
