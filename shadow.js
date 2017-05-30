@@ -27,7 +27,7 @@
               if (index !== 0) {
                 css_data_string += ", ";
               }
-              css_data_string += "" + (text_shadow_x * item["width"]) + "px " + (text_shadow_y * item["width"]) + "px " + item["color"];
+              css_data_string += "" + (text_shadow_x * item["width"]) + "px " + (text_shadow_y * item["width"]) + "px " + item["blur"] + "px " + item["color"];
             }
             css_data = {};
             css_data[shadow_type] = css_data_string;
